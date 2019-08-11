@@ -23,4 +23,4 @@ module.exports = function (req, res, next) {
             msg: "Token is not valid"
         });
     }
-}
+};
