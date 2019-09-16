@@ -18,7 +18,7 @@ const Dashboard = ({ getCurrentProfile,
         </p>
         {profile !== null ? <Fragment>Has Profile</Fragment> :
             <Fragment>
-                <p>You have not yet setup a porfile, please add some info</p>
+                <p>You have not yet setup a profile, please add some info</p>
                 <Link to="/create-profile" className="btn btn-primary my-1">
                     Create Profile
             </Link>
