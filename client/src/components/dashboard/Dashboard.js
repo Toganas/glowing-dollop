@@ -6,7 +6,8 @@ import Spinner from "../layout/Spinner";
 import DashboardActions from "./DashboardActions";
 import { getCurrentProfile } from "../../actions/profile";
 
-const Dashboard = ({ getCurrentProfile,
+const Dashboard = ({
+    getCurrentProfile,
     auth: { user },
     profile: { profile, loading } }) => {
     useEffect(() => {
